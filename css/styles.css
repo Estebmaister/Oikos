@@ -261,8 +261,8 @@ header .header-bar {
   position: relative;
 }
 
-header .header-bar /* .header-logo */ {
-  background: #fff;
+header .header-bar .header-logo {
+  background: transparent;
   padding: 0.2em 1em;
   max-width: 111px;
 }
