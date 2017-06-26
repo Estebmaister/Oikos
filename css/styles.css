@@ -261,12 +261,13 @@ header .header-bar {
   position: relative;
 }
 
-header .header-bar /* .header-logo */ {
-  background: transparent;
+header .header-bar .header-logo {
   padding: 0.2em 1em;
   max-width: 111px;
 }
-
+header .header-bar {
+  background: transparent;
+}
 header .header-bar .menu-trigger {
   cursor: pointer;
   padding: 1em;
